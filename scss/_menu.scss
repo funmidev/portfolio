@@ -138,7 +138,7 @@
 
 //delay each nav items slides using sass for loop by 0.1s
 
-@for $var from 1 to 3 {
+@for $var from 1 to 4 {
   .nav-item:nth-child(#{$var}) {
     transition-delay: $var * 0.1s;
   }
